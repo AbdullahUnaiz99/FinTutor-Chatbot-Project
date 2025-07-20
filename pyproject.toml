@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FinTutor-Chatbot-Project"
+version = "0.0.1"
+authors = [
+  { name="AbdullahUnaiz99", email="abdlearn99@gmail.com" },
+]
+description = "A financial tutor chatbot project."
+requires-python = ">=3.8"
+dependencies = [
+    "sentence-transformers==2.2.2",
+    "langchain",
+    "matplotlib",
+    "fastapi",
+    "pypdf",
+    "python-dotenv",
+    "pinecone[grpc]",
+    "langchain-pinecone",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-experimental"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["model*", "src*"]

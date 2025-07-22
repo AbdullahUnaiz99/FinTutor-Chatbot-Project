@@ -11,7 +11,7 @@ list_of_files = [
     ".env",
     "app.py",
     "model/train.ipynb",
-    "Data"
+    
 ]
 
 for filepath in list_of_files:

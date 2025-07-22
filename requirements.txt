@@ -1,7 +1,8 @@
-sentence-transformers==2.2.2
+sentence-transformers==2.2.2 
 langchain
 fastapi
-pypdf 
+pypdf
+pdfplumber 
 python-dotenv
 pinecone[grpc]
 langchain-pinecone
